@@ -5,6 +5,7 @@ import About from "./components/About/About";
 import WhatIDo from "./components/WhatIDo/WhatIDo";
 import Resume from "./components/Resume/Resume";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Interested from "./components/Interested/Interested";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <WhatIDo />
       <Resume />
       <Portfolio />
+      <Interested />
     </div>
   );
 }
