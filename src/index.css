@@ -61,3 +61,38 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.sectionTitleEditFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 100px;
+  padding-bottom: 30px;
+  
+}
+.absoluteAndColor
+{
+  color: var(--text-color);
+  text-transform: capitalize;
+  position: absolute;
+}
+
+.Bigsize
+{
+  font-size: 50px;
+  z-index: 10;
+  color: #f1f1f1;
+}
+.smallSize
+{
+  font-size: 30px;
+  z-index: 11;
+}
+.paraFont
+{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
