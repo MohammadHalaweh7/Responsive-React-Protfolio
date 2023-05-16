@@ -1,0 +1,45 @@
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 30px;
+    color: var(--text-color);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.list-item {
+    column-gap: 50px;
+}
+
+.item a {
+    font-size: 23px;
+    color: var(--text-color);
+    text-transform: capitalize;
+    transition: 0.2s;
+
+}
+
+.item:hover a,
+.item:hover i {
+    color: white;
+}
+
+.item i {
+    margin-right: 12px;
+    transition: 0.2s;
+}
+
+.item:hover i {
+    transform: translateX(10px);
+}
