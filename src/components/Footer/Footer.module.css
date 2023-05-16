@@ -1,0 +1,19 @@
+footer {
+    background-color: #252b33;
+}
+
+.footer-content {
+
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-content span {
+    color: var(--main-color);
+    text-decoration: underline;
+}

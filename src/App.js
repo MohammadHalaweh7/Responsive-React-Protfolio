@@ -6,6 +6,7 @@ import WhatIDo from "./components/WhatIDo/WhatIDo";
 import Resume from "./components/Resume/Resume";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Interested from "./components/Interested/Interested";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Resume />
       <Portfolio />
       <Interested />
+      <Footer />
     </div>
   );
 }
