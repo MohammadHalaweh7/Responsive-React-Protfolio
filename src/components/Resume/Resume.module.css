@@ -1,0 +1,175 @@
+.resume-section {
+    padding-bottom: 110px;
+}
+
+.resume-content {
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.education-content,
+.experience-content {
+    width: 565px;
+    margin-top: 50px;
+}
+
+.education-content h3,
+.experience-content h3,
+h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.education-box,
+.experience-box {
+    border-left: 1px solid var(--main-color);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+}
+
+.education-details,
+.experience-details {
+    padding-bottom: 1px;
+    border-bottom: 1px solid #8e9a9d;
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.education-details h4,
+.experience-details h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.education-details h5,
+.experience-details h5 {
+    font-size: 15px;
+    margin-bottom: 5px;
+    /* background-color: #6c757d; */
+}
+
+.education-details p,
+.experience-details p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* ------------------------------------------ */
+.outer-range,
+.inner-range {
+    height: 8px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.outer-range {
+    background-color: var(--main-color);
+    z-index: 100;
+}
+
+.outer-range-1 {
+    width: 90%;
+}
+
+.outer-range-2 {
+    width: 95%;
+}
+
+.outer-range-3 {
+    width: 80%;
+}
+
+.outer-range-4 {
+    width: 70%;
+}
+
+.outer-range-5 {
+    width: 60%;
+}
+
+.outer-range-6 {
+    width: 40%;
+}
+
+.inner-range {
+    width: 100%;
+    z-index: 99;
+    background-color: #ddd;
+}
+
+.resume-skills {
+    justify-content: space-between;
+    row-gap: 50px;
+
+    /* background-color: red; */
+    margin-top: 30px;
+}
+
+.skill {
+    width: 540px;
+    position: relative;
+
+}
+
+.skill h4 {
+    margin-bottom: 10px;
+    text-align: start;
+
+}
+
+.skill:nth-child(1)::after,
+.skill:nth-child(2)::after,
+.skill:nth-child(3)::after,
+.skill:nth-child(4)::after,
+.skill:nth-child(5)::after,
+.skill:nth-child(6)::after {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.skill:nth-child(1)::after {
+    content: "90%";
+}
+
+.skill:nth-child(2)::after {
+    content: "95%";
+}
+
+.skill:nth-child(3)::after {
+    content: "80%";
+}
+
+.skill:nth-child(4)::after {
+    content: "70%";
+}
+
+.skill:nth-child(5)::after {
+    content: "60%";
+}
+
+.skill:nth-child(6)::after {
+    content: "40%";
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.download-button a {
+    padding: 10px 50px;
+    background-color: white;
+    border: 2px solid var(--text-color);
+    color: black;
+    font-weight: bold;
+    margin-bottom: 150px;
+    transition: 1s;
+}
+
+.download-button a:hover {
+    color: white;
+    background-color: #121212;
+}

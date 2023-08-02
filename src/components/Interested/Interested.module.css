@@ -1,0 +1,42 @@
+.intersted-section {
+    height: 40vh;
+    background-image: url("../../../public/assets/images/portfolioIMG2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.intersted-content {
+    color: white;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+.intersted-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.intersted-content a {
+    color: #121212;
+    padding: 15px 60px;
+    background-color: var(--main-color);
+    border: none;
+    transition: 1s;
+}
+
+.intersted-content a:hover {
+    background-color: white;
+    color: var(--main-color);
+}
